@@ -5,6 +5,7 @@ function Book({
   book: { title, total_pages: totalPages, rating, isbn, published_date: publishedDate, authors },
   showDetail = false,
 }) {
+  console.log(`title`, title);
   return (
     <article className="book">
       <h3>{title}</h3>
